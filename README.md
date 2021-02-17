@@ -10,3 +10,9 @@ Tested extensively with disconnected sessions running cmd.exe, with a text file 
 Did not quite make it to production before the decision was made to move away from the MYOB via RDP, so this script became something that was uneeded. 
 
 This could potentially be helpful for any program used via RDP, which needs disconnected sessions to be managed. 
+
+##  dat2csv.py
+
+At a previous role there were some Informix C-ISAM databases (and later D-ISAM I believe). 
+
+As the development team were always too busy for ad hoc checks on the data, I often found myself writing script to search for information in the database files. So I wrote this script to read data out of a databases table, and output this to a CSV file. People interested in this data could then use Excel to manipulate, filter and sort to their hearts content. 
