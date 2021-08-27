@@ -16,3 +16,11 @@ This could potentially be helpful for any program used via RDP, which needs disc
 At a previous role there were some Informix C-ISAM databases (and later D-ISAM I believe). 
 
 As the development team were always too busy for ad hoc checks on the data, I often found myself writing script to search for information in the database files. So I wrote this script to read data out of a databases table, and output this to a CSV file. People interested in this data could then use Excel to manipulate, filter and sort to their hearts content. 
+
+##  vCenter_email_address_checks.ps1
+
+Check email addresses set for VMware vSphere alarm notification emails. 
+
+##  vCenter_email_address_refresh.ps1
+
+Refresh alarm notifications for only those that require email alerts, and set the desired email address. 
