@@ -25,7 +25,7 @@ foreach ($vSphereHost in $viServers)
     Connect-VIServer -Server $vSphereHost -User $credUsername -Password $credPassword | Select-Object Name,Port,User | Write-Host
     Write-Host ------------------------------------------------------------
     Write-Host Getting alarms that send email for $vSphereHost ... 
-    Get-AlarmDefinition | Get-AlarmAction -ActionType SendEmail | Select-Object AlarmDefinition,AlarmVersion,Cc,To | Format-Table -AutoSize
+    Get-AlarmDefinition | Get-AlarmAction -ActionType SendEmail | Select-Object AlarmDefinition,AlarmVersion,Cc,To,Subject,Body | Format-Table -AutoSize
     Write-Host ------------------------------
     Write-Host Getting all alarms for $vSphereHost ... 
     Get-AlarmDefinition | Get-AlarmAction -Server $vSphereHost | Select-Object AlarmDefinition,AlarmVersion,Cc,To | Format-Table -AutoSize
