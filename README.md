@@ -33,4 +33,4 @@ Check alarm emails sent. Number of days of history can be set.
 
 At a previous role (way back) there were some Informix C-ISAM databases (and later D-ISAM I believe). 
 
-As the development team were always too busy for ad hoc checks on the data, I often found myself writing script to search for information in the database files. So I wrote this script to read data out of a databases table, and output this to a CSV file. People interested in this data could then use Excel to manipulate, filter and sort to their hearts content. 
+As the development team were always too busy for ad hoc checks on the data, I often found myself writing script to search for information in the database files. So I wrote this script to read data out of a database table, and output this to a CSV file. People interested in this data could then use Excel to manipulate, filter and sort to their hearts content. 
